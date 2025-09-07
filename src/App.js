@@ -3,11 +3,12 @@ import Header from "./components/header";
 import Todoitem from "./components/todoitem";
 import Button from "./components/buttons";
 import "./style.css"
-
+import CounterComponent from "./components/counterComponent"
 
 function App() {
   return (
     <div className="todo-container">
+      <CounterComponent/> 
       <Header header="Todoie App"/> 
       <Todoitem completed ={true} text="Eat"/>
       <Todoitem text="Code"/>
