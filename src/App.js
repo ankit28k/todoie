@@ -8,12 +8,12 @@ import "./style.css"
 function App() {
   return (
     <div className="todo-container">
-      <Header /> 
-      <Todoitem />
-      <Todoitem />
-      <Todoitem />
-      <Todoitem />
-      <Todoitem />
+      <Header header="Todoie App"/> 
+      <Todoitem completed ={true} text="Eat"/>
+      <Todoitem text="Code"/>
+      <Todoitem text="Play"/>
+      <Todoitem text="DSA"/>
+      <Todoitem text="WEBD"/>
       <Button />
     </div>
     
